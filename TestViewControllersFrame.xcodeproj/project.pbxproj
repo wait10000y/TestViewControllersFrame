@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74059E41FC82379005FD2E5 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74059E31FC82379005FD2E5 /* DataViewController.xib */; };
 		E7A4AA4E1FC51BD10056DC60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA4D1FC51BD10056DC60 /* AppDelegate.m */; };
 		E7A4AA511FC51BD10056DC60 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA501FC51BD10056DC60 /* RootViewController.m */; };
 		E7A4AA541FC51BD10056DC60 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA531FC51BD10056DC60 /* DataViewController.m */; };
@@ -17,6 +18,12 @@
 		E7A4AA621FC51BD10056DC60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA611FC51BD10056DC60 /* main.m */; };
 		E7A4AA6C1FC51BD10056DC60 /* TestViewControllersFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA6B1FC51BD10056DC60 /* TestViewControllersFrameTests.m */; };
 		E7A4AA771FC51BD10056DC60 /* TestViewControllersFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA761FC51BD10056DC60 /* TestViewControllersFrameUITests.m */; };
+		E7A4AA871FC53D410056DC60 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA861FC53D410056DC60 /* NormalViewController.m */; };
+		E7A4AA8A1FC53D580056DC60 /* NormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA891FC53D580056DC60 /* NormalCollectionViewController.m */; };
+		E7A4AA8D1FC53D6D0056DC60 /* NormalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA8C1FC53D6D0056DC60 /* NormalTableViewController.m */; };
+		E7A4AA901FC53DB40056DC60 /* NormalSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA8F1FC53DB40056DC60 /* NormalSplitViewController.m */; };
+		E7A4AA941FC53E9E0056DC60 /* NormalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA931FC53E9E0056DC60 /* NormalNavigationController.m */; };
+		E7A4AA971FC54CB20056DC60 /* NormalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AA961FC54CB20056DC60 /* NormalPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E74059E31FC82379005FD2E5 /* DataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
 		E7A4AA491FC51BD10056DC60 /* TestViewControllersFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViewControllersFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A4AA4C1FC51BD10056DC60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7A4AA4D1FC51BD10056DC60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +65,18 @@
 		E7A4AA721FC51BD10056DC60 /* TestViewControllersFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestViewControllersFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A4AA761FC51BD10056DC60 /* TestViewControllersFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewControllersFrameUITests.m; sourceTree = "<group>"; };
 		E7A4AA781FC51BD10056DC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A4AA851FC53D410056DC60 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		E7A4AA861FC53D410056DC60 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		E7A4AA881FC53D580056DC60 /* NormalCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewController.h; sourceTree = "<group>"; };
+		E7A4AA891FC53D580056DC60 /* NormalCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewController.m; sourceTree = "<group>"; };
+		E7A4AA8B1FC53D6D0056DC60 /* NormalTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalTableViewController.h; sourceTree = "<group>"; };
+		E7A4AA8C1FC53D6D0056DC60 /* NormalTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewController.m; sourceTree = "<group>"; };
+		E7A4AA8E1FC53DB40056DC60 /* NormalSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalSplitViewController.h; sourceTree = "<group>"; };
+		E7A4AA8F1FC53DB40056DC60 /* NormalSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalSplitViewController.m; sourceTree = "<group>"; };
+		E7A4AA921FC53E9E0056DC60 /* NormalNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalNavigationController.h; sourceTree = "<group>"; };
+		E7A4AA931FC53E9E0056DC60 /* NormalNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalNavigationController.m; sourceTree = "<group>"; };
+		E7A4AA951FC54CB20056DC60 /* NormalPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalPageViewController.h; sourceTree = "<group>"; };
+		E7A4AA961FC54CB20056DC60 /* NormalPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +129,7 @@
 			children = (
 				E7A4AA4C1FC51BD10056DC60 /* AppDelegate.h */,
 				E7A4AA4D1FC51BD10056DC60 /* AppDelegate.m */,
-				E7A4AA4F1FC51BD10056DC60 /* RootViewController.h */,
-				E7A4AA501FC51BD10056DC60 /* RootViewController.m */,
-				E7A4AA521FC51BD10056DC60 /* DataViewController.h */,
-				E7A4AA531FC51BD10056DC60 /* DataViewController.m */,
-				E7A4AA551FC51BD10056DC60 /* ModelController.h */,
-				E7A4AA561FC51BD10056DC60 /* ModelController.m */,
+				E7A4AA911FC53DBE0056DC60 /* NormalViewControllers */,
 				E7A4AA581FC51BD10056DC60 /* Main.storyboard */,
 				E7A4AA5B1FC51BD10056DC60 /* Assets.xcassets */,
 				E7A4AA5D1FC51BD10056DC60 /* LaunchScreen.storyboard */,
@@ -140,6 +155,40 @@
 				E7A4AA781FC51BD10056DC60 /* Info.plist */,
 			);
 			path = TestViewControllersFrameUITests;
+			sourceTree = "<group>";
+		};
+		E7A4AA841FC53C990056DC60 /* PageViews */ = {
+			isa = PBXGroup;
+			children = (
+				E7A4AA4F1FC51BD10056DC60 /* RootViewController.h */,
+				E7A4AA501FC51BD10056DC60 /* RootViewController.m */,
+				E7A4AA521FC51BD10056DC60 /* DataViewController.h */,
+				E74059E31FC82379005FD2E5 /* DataViewController.xib */,
+				E7A4AA531FC51BD10056DC60 /* DataViewController.m */,
+				E7A4AA551FC51BD10056DC60 /* ModelController.h */,
+				E7A4AA561FC51BD10056DC60 /* ModelController.m */,
+			);
+			path = PageViews;
+			sourceTree = "<group>";
+		};
+		E7A4AA911FC53DBE0056DC60 /* NormalViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7A4AA841FC53C990056DC60 /* PageViews */,
+				E7A4AA921FC53E9E0056DC60 /* NormalNavigationController.h */,
+				E7A4AA931FC53E9E0056DC60 /* NormalNavigationController.m */,
+				E7A4AA851FC53D410056DC60 /* NormalViewController.h */,
+				E7A4AA861FC53D410056DC60 /* NormalViewController.m */,
+				E7A4AA881FC53D580056DC60 /* NormalCollectionViewController.h */,
+				E7A4AA891FC53D580056DC60 /* NormalCollectionViewController.m */,
+				E7A4AA8B1FC53D6D0056DC60 /* NormalTableViewController.h */,
+				E7A4AA8C1FC53D6D0056DC60 /* NormalTableViewController.m */,
+				E7A4AA8E1FC53DB40056DC60 /* NormalSplitViewController.h */,
+				E7A4AA8F1FC53DB40056DC60 /* NormalSplitViewController.m */,
+				E7A4AA951FC54CB20056DC60 /* NormalPageViewController.h */,
+				E7A4AA961FC54CB20056DC60 /* NormalPageViewController.m */,
+			);
+			path = NormalViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74059E41FC82379005FD2E5 /* DataViewController.xib in Resources */,
 				E7A4AA5F1FC51BD10056DC60 /* LaunchScreen.storyboard in Resources */,
 				E7A4AA5C1FC51BD10056DC60 /* Assets.xcassets in Resources */,
 				E7A4AA5A1FC51BD10056DC60 /* Main.storyboard in Resources */,
@@ -277,9 +327,15 @@
 			files = (
 				E7A4AA621FC51BD10056DC60 /* main.m in Sources */,
 				E7A4AA511FC51BD10056DC60 /* RootViewController.m in Sources */,
+				E7A4AA901FC53DB40056DC60 /* NormalSplitViewController.m in Sources */,
 				E7A4AA571FC51BD10056DC60 /* ModelController.m in Sources */,
 				E7A4AA541FC51BD10056DC60 /* DataViewController.m in Sources */,
 				E7A4AA4E1FC51BD10056DC60 /* AppDelegate.m in Sources */,
+				E7A4AA941FC53E9E0056DC60 /* NormalNavigationController.m in Sources */,
+				E7A4AA871FC53D410056DC60 /* NormalViewController.m in Sources */,
+				E7A4AA971FC54CB20056DC60 /* NormalPageViewController.m in Sources */,
+				E7A4AA8D1FC53D6D0056DC60 /* NormalTableViewController.m in Sources */,
+				E7A4AA8A1FC53D580056DC60 /* NormalCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64A273QXDU;
 				INFOPLIST_FILE = TestViewControllersFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsliang.TestViewControllersFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64A273QXDU;
 				INFOPLIST_FILE = TestViewControllersFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsliang.TestViewControllersFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";

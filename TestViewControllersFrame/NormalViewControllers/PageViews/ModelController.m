@@ -22,6 +22,8 @@
 @interface ModelController ()
 
 @property (readonly, strong, nonatomic) NSArray *pageData;
+@property (nonatomic) NSMutableDictionary *createDataDict;
+
 @end
 
 @implementation ModelController
@@ -32,6 +34,7 @@
         // Create the data model.
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         _pageData = [[dateFormatter monthSymbols] copy];
+        self.createDataDict = [NSMutableDictionary new];
     }
     return self;
 }
@@ -44,6 +47,9 @@
 
     // Create a new view controller and pass suitable data.
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
+//    NSLog(@"storyboard创建的对象:%@",dataViewController);
+    [self.createDataDict setObject:@1 forKey:@(dataViewController.hash)];
+    NSLog(@"storyboard创建对象个数:%d",self.createDataDict.count);
     dataViewController.dataObject = self.pageData[index];
     return dataViewController;
 }
